@@ -34,4 +34,16 @@ class BelahKetupat
         float kelilingFriend(LayangLayang L);
 };
 
+void LayangLayang::input()
+{
+    cout << "\n=== Input Layang-Layang ===" << endl;
+    cout << "Masukkan diagonal 1: ";
+    cin >> d1;
+    cout << "Masukkan diagonal 2: ";
+    cin >> d2;
+    cout << "Masukkan sisi 1: ";
+    cin >> sisi1;
+    cout << "Masukkan sisi 2: ";
+    cin >> sisi2;
+}
 
