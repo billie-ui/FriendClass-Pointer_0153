@@ -88,3 +88,13 @@ float BelahKetupat::Keliling()
 {
     return 4 * sisi;
 }
+
+void BelahKetupat::output()
+{
+    cout << "\n=== Output Belah Ketupat ===" << endl;
+    cout << "Diagonal 1: " << d1 << endl;
+    cout << "Diagonal 2: " << d2 << endl;
+    cout << "Sisi: " << sisi << endl;
+    cout << "Luas: " << Luas() << endl;
+    cout << "Keliling: " << Keliling() << endl;
+}
